@@ -9,7 +9,9 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 module SampleApp
 
    class Application < Rails::Application
-     
+      .
+      .
+      .
       ### Part of a Spork hack. See http://bit.ly/arY19y
    
      if Rails.env.test?

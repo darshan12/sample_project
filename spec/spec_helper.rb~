@@ -34,4 +34,7 @@ end
 end
 Spork.each_run do
 end
+Note that we’ve also added the line
+ActiveSupport::Dependencies.clear
+at the end of the Rspec.configure block. This is to work around t
 
