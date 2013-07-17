@@ -30,6 +30,8 @@ group :test do
   gem 'rspec' , '2.6'
   gem 'webrat' , '0.7.1'
   gem 'spork', '>= 0.9.0.rc'
+  gem 'autotest-rails' 
+  gem 'autotest-notification'
 end
 
 gem 'jquery-rails'
